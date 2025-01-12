@@ -1,0 +1,31 @@
+# For API integration
+requests==2.31.0
+
+# For data processing and handling
+pandas==2.1.1
+numpy==1.26.0
+
+# For embedding generation
+sentence-transformers==2.2.2
+
+# Transformers library for compatibility with sentence-transformers
+transformers==4.31.0
+
+# For vector similarity search
+faiss-cpu==1.7.4
+
+# For LLM integration
+openai==0.27.8
+
+# Huggingface hub (compatible with sentence-transformers and transformers)
+huggingface-hub==0.15.1
+
+# For API development
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# For optional frontend (Streamlit)
+streamlit==1.26.0
+
+# For environment variable management
+python-dotenv==1.0.0

@@ -1,0 +1,5 @@
+.env
+food_venv/
+__pycache__/
+*.png
+*.json
