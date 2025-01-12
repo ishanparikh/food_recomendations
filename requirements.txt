@@ -20,12 +20,15 @@ openai==0.27.8
 # Huggingface hub (compatible with sentence-transformers and transformers)
 huggingface-hub==0.15.1
 
-# For API development
+# For API development (optional)
 fastapi==0.103.1
 uvicorn==0.23.2
 
-# For optional frontend (Streamlit)
+# For frontend (Streamlit)
 streamlit==1.26.0
 
 # For environment variable management
 python-dotenv==1.0.0
+
+# For plotting and visualizations
+matplotlib==3.7.2
